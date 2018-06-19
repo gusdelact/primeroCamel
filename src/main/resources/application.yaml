@@ -1,0 +1,32 @@
+server:
+  port: 8081
+  
+camel:
+   springboot:
+      shutdownTimeout: 2
+
+spring:
+  profiles:
+    active: stage
+
+---
+
+
+spring:
+  profiles: dev
+  
+mensaje: DEV environment
+ 
+---
+ 
+spring:
+  profiles: stage
+  
+mensaje: STAGE environment
+ 
+---
+  
+spring:
+  profiles: prod
+  
+mensaje: PROD environment
