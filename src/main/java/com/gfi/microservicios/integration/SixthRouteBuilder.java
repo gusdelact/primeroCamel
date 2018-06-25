@@ -3,6 +3,7 @@ package com.gfi.microservicios.integration;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
+//EIP: Message Translator
 @Component
 public class SixthRouteBuilder extends RouteBuilder {
 

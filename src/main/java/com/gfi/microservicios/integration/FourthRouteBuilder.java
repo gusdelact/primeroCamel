@@ -4,7 +4,7 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Predicate;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
-
+//EIP: Message Router y tambien DataType Channel
 @Component
 public class FourthRouteBuilder extends RouteBuilder {
 

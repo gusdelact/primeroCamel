@@ -3,6 +3,9 @@ package com.gfi.microservicios.integration;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
+import com.gfi.microservicios.integration.beans.Step1Bean;
+import com.gfi.microservicios.integration.beans.Step2Bean;
+//EIP: Pipeline
 @Component
 public class ThirdRouteBuilder extends RouteBuilder {
 

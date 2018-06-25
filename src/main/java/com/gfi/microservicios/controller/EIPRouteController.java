@@ -45,4 +45,17 @@ public class EIPRouteController {
 
 		return ;
 	}
+	
+	
+	@RequestMapping(value="/v1/ruta10",method = RequestMethod.GET)
+	public void ruta10() {
+		
+			ProducerTemplate producerTemplate= 
+					camelContext.createProducerTemplate();
+			
+		producerTemplate.sendBody("direct:ruta10","hola ruta 10");
+		
+
+		return ;
+	}
 }
